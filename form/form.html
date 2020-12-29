@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <div class="form">
+      <form>
+        <input
+          type="text"
+          placeholder="Username"
+          class="form-input"
+          style="margin-top: 10px"
+          required
+        />
+        <input
+          type="email"
+          placeholder="Email"
+          class="form-input"
+          autocomplete="username"
+          required
+        />
+        <input
+          id="password"
+          type="password"
+          placeholder="Password"
+          class="form-input"
+          autocomplete="new-password"
+          required
+        />
+        <input
+          id="password-confirmation"
+          type="password"
+          placeholder="Password Confirmation"
+          class="form-input"
+          autocomplete="new-password"
+          required
+        />
+
+        <button class="form-button">Submit</button>
+      </form>
+    </div>
+
+    <script src="./form.js"></script>
+  </body>
+</html>
