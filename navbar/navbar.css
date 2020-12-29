@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+.navbar,
+.links {
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(45, 45, 45);
+}
+.navbar {
+  flex-wrap: wrap;
+}
+.nav-header {
+  font-size: 25px;
+}
+a {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: 0.15s;
+}
+a:hover {
+  color: rgb(202, 202, 202);
+}
